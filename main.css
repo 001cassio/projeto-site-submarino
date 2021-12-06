@@ -1,0 +1,109 @@
+*{
+    padding:0;
+    margin: 0;
+    color: #fff;
+}
+header{
+    background:var(--corprimaria);
+}
+:root{
+    --corprimaria:#0433ff;
+}
+.container{
+    margin-left: 17em;
+    margin-right: 17em;
+    margin-top: 3.5em;
+}
+.cabecalho{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    position:relative;
+    height: 20vh;
+
+}
+#titulo{
+    text-transform:capitalize;
+    font-size: 2.2em;
+    font-family:"Arial Black";
+}
+#imagem{
+    margin-top: 0.001
+    height: 2em;
+    width: 2em;
+}
+#pesquisa{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    height:30%;
+    padding: .05rem 1rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    color: #000;
+    background-color: #fff;
+    width: 30%;
+    cursor:text;
+    
+}
+#lupa{
+    margin-top: 0.4em;
+    margin-left: 4em;
+}
+.login{
+    display: flex;
+    font-size: 1.2rem;
+    padding: 1em 1em;
+    margin-left: 3rem;
+    margin-right: 20rem;
+    margin-top: 1em;
+
+}
+.form{
+    color:#000;
+    font-size: 1em;
+
+}
+.botoes{ 
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    
+}
+.lista{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration:none;
+    list-style: none;
+}
+.valor{
+    font-family: "Arial Black ";
+    margin-right: 2rem;
+    text-decoration: none;
+
+}
+main{
+    width: 100vh;
+}
+.imagempromocao{
+    height: 20em;
+    width: 85em;
+    margin-bottom: 3rem;
+}
+.promocao{
+    height: 12vh;
+}
+.icones nav{
+    display: flex;
+
+}
+.icon{
+    height: 40px;
+    width: 80%;
+    flex-wrap: nowrap;
+
+
+
+
+}
