@@ -1,5 +1,5 @@
-# projeto-site-submarino
-Copia do site da SUBMARINO basico
+# projeto-site-submarsino
+##copia do site da SUBMARINO
 Estruturas feitas em html e css
 Ao longo dos estudos e aprimoramentos vou modificando este projeto
-001
+##versao001
